@@ -18,7 +18,7 @@ class LoginPage(CommonPage):
 
     def __init__(self, driver):
         super().__init__(driver)
-        self.wait = WebDriverWait(self.driver, 10)  # Ensure driver is used properly
+        self.wait = WebDriverWait(self.driver, 10)  
 
     def login(self, email):
         self.open_url("https://indiarunning-organizer-dashboard-staging.bombayrunning.com/")
